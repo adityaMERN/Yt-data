@@ -1,7 +1,7 @@
 import sys
 import json
 import requests
-api_key = "AIzaSyBq55AFSFZdEiB9i2pL5JokmoxnW89eJsE"
+api_key = "Your api key here"
 from apiclient.discovery import build
 
 youtube = build('youtube', 'v3', developerKey=api_key)
